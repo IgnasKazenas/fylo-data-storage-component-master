@@ -1,0 +1,38 @@
+main {
+    font-size: 100px;
+}
+
+body {
+    display: inline-block;
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    }
+
+
+@media (max-width: 375px) {
+body {
+    display: inline-block;
+    background-image: url(images/bg-mobile.png);
+    background-repeat: no-repeat;
+    font-size: 10px;
+    }
+}
+
+main {
+    display: inline-block;
+    margin-top: auto;
+}
+
+    .left {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .right {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        padding: 10px;
+    }
