@@ -14,8 +14,9 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<link rel="stylesheet" href="main.css">
-
+<link rel="stylesheet" href="./CSS/main.css">
+<!-- <link rel="stylesheet" href="./CSS/reset.css" -->
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 <body>
 
   <main>
@@ -35,17 +36,36 @@
     </div>
 
     <div class="right">
-      You’ve used 815 GB of your storage
 
-      185 GB Left
-      
-      0 GB
-      1000 GB
+      <div class="bubble">
+        <div class="no-left">
+          185
+        </div>
+        <div class="gb-left">
+          GB LEFT
+        </div>
+      </div>
+
+      <div class="main-text">
+        You’ve used <b>815 GB</b> of your storage
+      </div>
+
+      <div class="prog-bar">
+        <div class="gradientbar"><div class="dot"></div></div>
+        
+      </div>
+
+      <div class="minmax">
+        <div class="zero">
+          0gb
+        </div>
+        <div class="thousand">
+          1000gb
+        </div>
+
+      </div>
+
     </div>
-
-    <footer>
-
-    </footer>
 
   </main>
 

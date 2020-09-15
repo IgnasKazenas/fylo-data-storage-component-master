@@ -1,0 +1,185 @@
+/* body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+word-break: break-all;
+} */
+body {
+    display: inline-block;
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 50% -90%;
+    background-size: cover;
+    width: 2000px;
+    background-color: #0c122c;
+    font-family: Raleway;
+    font-size: 14px;
+}
+main {
+    display: inline-block;
+    float: left;
+    margin-left: calc( (70% - 600px) / 2);
+    width: 1100px;
+    padding: 10px;
+    margin-top: 18%;
+    position: absolute;
+}
+
+/* .bg {
+    display:inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 50%;
+    margin-top: 25%;
+    margin-top: calc(50% - 125px)
+
+    position: absolute;
+    } */
+
+
+/* @media (max-width: 375px) {
+}*/
+
+.left {
+    display: inline-block;
+    float: left;
+    width: 400px;
+    height: 180px;
+    padding: 20px;
+    position: relative;
+    background-color: #1e2c69;
+    border-radius: 15px 110px 15px 15px;
+}
+    .logo {
+        display: inline-block;
+        margin: 5% 60% 5% 5%;
+    }
+    a {
+        display: grid;
+        box-sizing: border-box;
+        float: left;
+        background-color: #0b122c;
+        border-radius: 12px;
+        width: 55px;
+        height: 55px;
+        margin-left: 5%;
+        margin-top: 5%;
+        gap: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+.right {
+    display: inline-block;
+    float: right;
+    width: 550px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: #1e2c69;
+    border-radius: 15px;
+    /* margin-left: -35%; */
+    position: absolute;
+}
+    .bubble {
+        display: inline-block;
+        float: right;
+        background-color: white;
+        color: black;
+        position: relative;
+        width: 200px;
+        height: 80px;
+        border-radius: 15px;
+        margin-top: -10%;
+        margin-right: 8%;
+    }
+        .bubble:after {
+            content: '';
+	        position: absolute;
+	        bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 50px solid transparent;
+            border-top-color: white;
+            border-bottom: 0;
+            border-right: 0;
+            margin-left: 25%;
+            margin-bottom: -15%;
+        }
+            .no-left {
+                display: inline-block;
+                float: left;
+                margin-top: calc((100% - 180px) / 2);
+                margin-left: 20px;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .gb-left {
+                display: inline-block;
+                float: left;
+                margin-top: calc((100% - 140px) / 2);
+                margin-left: 20px;
+                color: grey;
+                font-weight: 200;
+            }
+    .main-text {
+        display: inline-block;
+        margin-top: 7%;
+        margin-left: 7%;
+        margin-bottom: 3%;
+        font-size: 12px;
+        color: white;
+    }
+    .prog-bar {
+        display: inline-block;
+        width: 85%;
+        height: 20px;
+        margin-left: 8%;
+        border-radius: 15px;
+        background-color: #0c122c;
+        position: relative;
+    }
+        .gradientbar {
+            display: inline-block;
+            height: 14px;
+            margin-top: 3px;
+            width: 70%;
+            border-radius: 10px;
+            float: left;
+            background: rgb(254,160,150);
+            background: linear-gradient(90deg, rgba(254,160,150,1) 0%, rgba(255,117,150,1) 35%, rgba(251,77,146,1) 100%);
+        }
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius:5px;
+            float: right;
+            margin-right: 1%;
+            margin-top: 2px;
+        }
+    .minmax {
+        display: inline-block;
+        float: left;
+        color: white;
+        width: 85%;
+        margin-left: 7%;
+    }
+        .zero {
+        display: inline-block;
+        float: left;
+        }
+        .thousand {
+        display: inline-block;
+        float: right;
+        
+        }
