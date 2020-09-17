@@ -7,16 +7,20 @@ box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 word-break: break-all;
 } */
+
+
 body {
     display: inline-block;
     background-image: url(../images/bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: 50% -90%;
-    background-size: cover;
-    width: 2000px;
+    background-position: 0 45vh;
+    background-size: 105%;
+    width: 100vw;
+    height: 50vh;
     background-color: #0c122c;
     font-family: Raleway;
     font-size: 14px;
+    position: absolute;
 }
 main {
     display: inline-block;
@@ -28,27 +32,11 @@ main {
     position: absolute;
 }
 
-/* .bg {
-    display:inline-block;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-size: 50%;
-    margin-top: 25%;
-    margin-top: calc(50% - 125px)
-
-    position: absolute;
-    } */
-
-
-/* @media (max-width: 375px) {
-}*/
-
 .left {
     display: inline-block;
     float: left;
-    width: 400px;
-    height: 180px;
+    width: 25vw;
+    height: 20vh;
     padding: 20px;
     position: relative;
     background-color: #1e2c69;
@@ -78,11 +66,11 @@ main {
 .right {
     display: inline-block;
     float: right;
-    width: 550px;
-    height: 150px;
+    width: 35vw;
+    height: 20vh;
     padding: 10px;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 2%;
     background-color: #1e2c69;
     border-radius: 15px;
     /* margin-left: -35%; */
@@ -94,8 +82,8 @@ main {
         background-color: white;
         color: black;
         position: relative;
-        width: 200px;
-        height: 80px;
+        width: 15vw;
+        height: 10vh;
         border-radius: 15px;
         margin-top: -10%;
         margin-right: 8%;
@@ -117,16 +105,19 @@ main {
             .no-left {
                 display: inline-block;
                 float: left;
-                margin-top: calc((100% - 180px) / 2);
-                margin-left: 20px;
-                font-size: 40px;
+                /* margin-top: calc((100% - 15vh) / 2); */
+                margin-top: 2vh;
+                margin-left: 1vw;
+                font-size: 5vh;
                 font-weight: bold;
             }
             .gb-left {
                 display: inline-block;
                 float: left;
-                margin-top: calc((100% - 140px) / 2);
-                margin-left: 20px;
+                /* margin-top: calc((100% - 10vh) / 2); */
+                margin-top: 4vh;
+                margin-left: 1vw;
+                width: 5vw;
                 color: grey;
                 font-weight: 200;
             }
